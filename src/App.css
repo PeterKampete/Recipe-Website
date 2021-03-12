@@ -1,7 +1,7 @@
 .App {
   min-height: 100vh;
-background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);}
-
+background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
+}
 .search-form{
   min-height: 10vh;
   display: flex;
@@ -14,11 +14,13 @@ background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%,
   padding: 10px;
 }
 
-.search-button{
-  background: lightcoral;
+.btn-flat{
+
+background: lightcoral;
   border: none;
  padding: 10px 20px;
- color: white; 
+ color: white;
+ 
 }
 
 .recipes{

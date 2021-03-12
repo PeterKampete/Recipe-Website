@@ -9,3 +9,12 @@
     align-items: center;
     min-width: 40%;
 }
+
+.image:hover{
+    color: #ffffff;
+  background: #f6b93b;
+  border-color: #f6b93b;
+  transition: all 0.4s ease 0s;
+  border-radius: 45%;
+  margin-bottom: 20px;
+}

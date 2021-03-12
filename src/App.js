@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Recipe from "./components/Recipe";
+import Button from "react-bootstrap/Button";
 
 const App = () => {
   const APP_ID = "4c204a4d";
@@ -42,9 +43,7 @@ const App = () => {
           value={search}
           onChange={updateSearch}
         />
-        <button className="search-button" type="submit">
-          Search
-        </button>
+        <Button variant="flat">Search</Button>
       </form>
       <div className="recipes">
         {recipes.map((recipe) => (
